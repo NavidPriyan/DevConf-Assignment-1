@@ -1,24 +1,26 @@
 *{
 margin:0;
 padding:0;
+box-sizing: border-box;
 font-family: "Inter", sans-serif;
 font-family: "Arimo", sans-serif;
 
 
 }
-header{
+body{
     background-color:#ffffffFF;
      width:100%;
 }
 nav{
+    max-width: 1550px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
-    margin: 0 auto;
-padding: 30px;
+    margin: 5px auto;
+    padding: 15px 35px;
+    padding-left:10%;
+    padding-right:10%;
     
-
 }
 
 
@@ -47,14 +49,103 @@ padding: 30px;
 
 
 .common-button{
-    width:188px;
-    height:48px;
+     width: 175px;px;
+    height: 48px;
+    
     font-family: "Inter", sans-serif;
     background-color: #1d4ed8FF;
+    margin: 0  auto;
     padding: 16px;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     color:white;
     border:none;
+}
+
+
+
+header{
+     background-image: url('./assets/banner.jpg');
+        height:100vh;
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display:grid;
+        max-width: 1551px;
+       
+
+    
+}
+
+.header-content{
+    padding:50px;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    display: grid;
+    color:white;
+    gap:20;
+}
+ .banner-button{
+    margin-top:250px;
+    width:265px;
+    height: 69px;
+
+    border-radius:8px;
+    text-align:center;
+    font-size: 20px;
+
+}
+
+.header-title{
+    font-size: 70px;
+     font-family: "Inter", sans-serif;
+     font-weight: 700;
+     font-display: block;
+}
+
+.header-content p{
+    max-width: 700px;
+}
+
+
+
+.speakers{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+
+   padding-top: 35px;
+   margin: 0; auto;
+
+
+}
+.speakers h1{
+    font-family: "Inter", sans-serif;
+    font:#000102FF; 
+    font-family: ;
+}
+.speaker-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+     padding: 50px;
+    gap: 30px;
+
+}
+.speaker-card img{
+    width:100%;
+    display:block;
+}
+.speaker-card{
+    text-align: left;
+    overflow: hidden;
+    border-radius:10px;
+    border:1px solid #e5e7ebFF;;
+
+
+
 }
