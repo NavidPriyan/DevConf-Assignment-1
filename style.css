@@ -144,8 +144,37 @@ header{
     text-align: left;
     overflow: hidden;
     border-radius:10px;
-    border:1px solid #e5e7ebFF;;
+    border:1px solid #e5e7ebFF;
 
+}
+
+
+.speaker-category {
+    font-family: "Inter", sans-serif;
+    color:#2563eb;
+    font-size:10px;
+    font-weight:700;
+    padding:2.5px;
+    margin-left:10px;
+    margin-top: 10px;
+}
+
+.speaker-card h3 {
+font-family: "Inter", sans-serif;
+    font-size:20px;
+    font-weight:bold;
+    padding: 2.5px;
+    margin-left: 10px;
+}
+
+.speaker-card p{
+    font-family: "Inter", sans-serif;
+     font-size:10px;
+    padding:2.5px;
+    margin-left:10px;
+    font-weight: 600;
+    color: gray;
+    
 
 
 }
