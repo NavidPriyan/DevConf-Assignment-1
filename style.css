@@ -49,8 +49,8 @@ nav{
 
 
 .common-button{
-     width: 175px;px;
-    height: 48px;
+     width: 250px;
+    height: 50px;
     
     font-family: "Inter", sans-serif;
     background-color: #1d4ed8FF;
@@ -64,7 +64,7 @@ nav{
 }
 
 
-
+/* the banner section */
 header{
      background-image: url('./assets/banner.jpg');
         height:100vh;
@@ -109,8 +109,7 @@ header{
     max-width: 700px;
 }
 
-
-
+/* Speaker Section Grid Card */
 .speakers{
    display: flex;
    flex-direction: column;
@@ -120,14 +119,14 @@ header{
    text-align: center;
 
    padding-top: 35px;
-   margin: 0; auto;
+   margin: 0 auto;
 
 
 }
 .speakers h1{
     font-family: "Inter", sans-serif;
     font:#000102FF; 
-    font-family: ;
+
 }
 .speaker-container{
     display: grid;
@@ -148,7 +147,7 @@ header{
 
 }
 
-
+/* modifying the colour fonts inside the card */
 .speaker-category {
     font-family: "Inter", sans-serif;
     color:#2563eb;
@@ -173,8 +172,87 @@ font-family: "Inter", sans-serif;
     padding:2.5px;
     margin-left:10px;
     font-weight: 600;
-    color: gray;
+    color: #575757;
     
 
 
 }
+
+/* creating the pricing section */
+
+.pricing{
+    padding:100px 0;
+    background: white;
+}
+.pricing-header{
+     font-family: "Inter", sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    padding-top:50px  ;
+
+
+
+
+
+}
+ .pricing-paragraph{ justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size:10px;
+    font-weight: 600;
+    color: #575757;
+    padding:10px;
+    font-size: ;
+
+ }   
+ 
+ .pricing-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 50px;
+    gap: 10px;
+    margin:100px
+ }
+
+ .card-info{
+    display:flex;
+    flex-direction:column;
+    font-size:15px;
+    color:#575757;
+    text-align: left;
+    
+    border-radius:10px;
+    border:1px solid #e5e7ebFF;
+    padding:40px;
+
+
+
+ }
+ .card-info ul{
+    margin:10px;
+ }
+ .card-info li::marker{
+    
+    color: #1d4ed8FF;
+}
+
+ .white-button{
+     width: 250px;
+    height: 50px;
+    
+    font-family: "Inter", sans-serif;
+    background-color: white;
+    margin-top:0  auto;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1d4ed8FF;
+    border:1px solid #1d4ed8FF;
+           
+           
+ }
+ 
