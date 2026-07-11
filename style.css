@@ -181,7 +181,7 @@ font-family: "Inter", sans-serif;
 /* creating the pricing section */
 
 .pricing{
-    
+    width:auto;
     padding:100px 0;
     background: white;
 }
@@ -325,9 +325,46 @@ font-weight: 700;
     color: #1d4ed8FF;
     border:1px solid #1d4ed8FF;
     cursor:pointer;
-
-
-           
-           
- }
+}
  
+/* footer section */
+
+footer{
+    width:auto;
+    background:#0d1b2a;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 54px;
+}
+.footer-logo img{
+    width:40px;
+    height:auto;
+    display:block;
+}
+
+.copyright{
+    font-family: "Inter" sans-serif;
+    font-size:14px;
+    color:#575757;
+}
+
+.terms ul{
+    
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.terms ul li a{
+    /* display: flex; */
+    font-family:"Arimo", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #575757;
+    
+}
+
