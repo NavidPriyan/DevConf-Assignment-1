@@ -181,6 +181,7 @@ font-family: "Inter", sans-serif;
 /* creating the pricing section */
 
 .pricing{
+    
     padding:100px 0;
     background: white;
 }
@@ -189,32 +190,33 @@ font-family: "Inter", sans-serif;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-weight: bold;
-    padding-top:50px  ;
+    font-size: 42px;
+    font-weight: 800;
+    /* padding-top:50px  ; */
 
 
 
 
 
 }
- .pricing-paragraph{ justify-content: center;
-    align-items: center;
+ .pricing-paragraph{ 
     text-align: center;
     font-family: "Inter", sans-serif;
     font-size:10px;
     font-weight: 600;
     color: #575757;
     padding:10px;
-    font-size: ;
+    font-size: 16px ;
 
  }   
  
  .pricing-card{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    padding: 50px;
-    gap: 10px;
-    margin:100px
+    width:1320px;
+    padding: 100px;
+    gap: 25px;
+    margin: 60px auto 0;
  }
 
  .card-info{
@@ -227,16 +229,88 @@ font-family: "Inter", sans-serif;
     border-radius:10px;
     border:1px solid #e5e7ebFF;
     padding:40px;
-
+    background-color:#ffffff ;
 
 
  }
+
+.card-info.highlighted{
+    background: #0d1b2aFF;;
+    border:none;
+    color:#ffffff;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.card-info h6{
+font-size:12px;
+letter-spacing: 0.5px;
+color:#6b7280;
+margin-bottom:12px;
+font-weight: 700;
+
+
+}
+
+.card-info.highlighted h6{
+    color:#93c5fd;
+    
+
+}
+
+.card-info h1{
+ font-size:42px;
+ font-weight: 800;
+ color:black;
+ margin-bottom: 5px;
+
+
+}
+.card-info.highlighted h1{
+    color:#ffffff;
+}
+
+.price-text{
+    font-size:14px;
+    color : #9ca3af;
+    margin-bottom: 18px;
+}
+.card-info.highlighted .price-text{
+    color:#9ca3af;
+}
+.card-info hr{
+    border:none;
+    border-top: 1px solid #e5e7ebFF;
+    margin:20px 0;
+}
+
+.card-info.highlighted hr{
+    border-top :1px solid #e5e7ebFF;
+}
+
  .card-info ul{
-    margin:10px;
+    flex-grow:1;
+    margin:0 0 30px 18px;
  }
+ .card-info li{
+    margin-bottom: 14px;
+    font-size:14px;
+ }
+.card-info.highlighted li{
+    color:#e5e7ebFF
+}
+
  .card-info li::marker{
     
     color: #1d4ed8FF;
+}
+
+.card-info .white-button, .card-info .common-button{
+    width:100%;
+    height:50px;
+    margin:0 auto;
+    padding:0;
+    font-size: 14px;
+
 }
 
  .white-button{
@@ -245,13 +319,14 @@ font-family: "Inter", sans-serif;
     
     font-family: "Inter", sans-serif;
     background-color: white;
-    margin-top:0  auto;
-    padding: 16px;
+   
     border-radius: 10px;
-    font-size: 14px;
     font-weight: 700;
     color: #1d4ed8FF;
     border:1px solid #1d4ed8FF;
+    cursor:pointer;
+
+
            
            
  }
