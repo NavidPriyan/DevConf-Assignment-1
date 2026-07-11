@@ -339,7 +339,7 @@ footer{
 }
 .footer-logo img{
     justify-content:center;
-    width:100px;
+    width:auto;
     height:auto;
     display:block;
 }
