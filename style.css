@@ -338,14 +338,15 @@ footer{
     padding:30px 54px;
 }
 .footer-logo img{
-    width:40px;
+    justify-content:center;
+    width:100px;
     height:auto;
     display:block;
 }
 
 .copyright{
-    font-family: "Inter" sans-serif;
-    font-size:14px;
+    font-family: "Inter", sans-serif;
+    font-size:16px;
     color:#575757;
 }
 
@@ -354,15 +355,15 @@ footer{
     display:flex;
     flex-direction: row;
     list-style: none;
-    gap: 25px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     
 }
 .terms ul li a{
-    /* display: flex; */
-    font-family:"Arimo", sans-serif;
-    font-size: 16px;
+    
+    font-family:"Inter", sans-serif;
+    font-size: 14px;
     text-decoration: none;
     color: #575757;
     
