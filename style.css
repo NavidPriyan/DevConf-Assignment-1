@@ -77,7 +77,7 @@ header{
         background-repeat: no-repeat;
         display:grid;
         /* max-width: 1551px; */
-        margin: : 0% auto;
+        margin:0 auto;
        
 
     
@@ -125,7 +125,7 @@ header{
    align-items: center;
    text-align: center;
 
-   padding-top: 25px;
+   padding:50px 0;
    margin: 0 auto;
 
 
@@ -198,7 +198,7 @@ font-family: "Inter", sans-serif;
 
 .pricing{
     width:auto;
-    padding:100px 0;
+    padding:50px 0;
     background: white;
 }
 .pricing-header{
@@ -233,7 +233,7 @@ font-family: "Inter", sans-serif;
     width:auto;
     padding: 100px;
     gap: 25px;
-    margin: 60px auto 0;
+    margin: 0 auto ;
  }
 
  .card-info{
@@ -289,7 +289,7 @@ font-weight: 700;
 .price-text{
     font-size:14px;
     color : #9ca3af;
-    margin-bottom: 18px;
+  
 }
 .card-info.highlighted .price-text{
     color:#9ca3af;
