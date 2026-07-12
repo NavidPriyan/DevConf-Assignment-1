@@ -69,7 +69,7 @@ nav{
 
 /* the banner section */
 header{
-     background-image: url('./assets/banner.jpg') ;
+     background-image:  linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),url('./assets/banner.jpg') ;
         width:100vw;
         height:100vh;
         background-size:cover;
@@ -147,8 +147,7 @@ header{
 .speaker-card img{
 
     display:block;
-    /* width: 400px;    
-  height: 400px */
+    
 
 }
 .speaker-card{
