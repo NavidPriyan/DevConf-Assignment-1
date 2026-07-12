@@ -11,8 +11,10 @@ body{
     background-color:#ffffffFF;
      width:100%;
 }
+
+/* Navigation part */
 nav{
-    max-width: 1550px;
+    max-width: 1551px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,7 +51,7 @@ nav{
 
 
 .common-button{
-     width: 250px;
+     width: 220px;
     height: 50px;
     
     font-family: "Inter", sans-serif;
@@ -61,12 +63,14 @@ nav{
     font-weight: 700;
     color:white;
     border:none;
+    cursor:pointer;
 }
 
 
 /* the banner section */
 header{
      background-image: url('./assets/banner.jpg');
+        
         height:100vh;
         background-size:cover;
         background-position: center;
@@ -86,6 +90,8 @@ header{
     display: grid;
     color:white;
     gap:20;
+    width:auto;
+    
 }
  .banner-button{
     margin-top:250px;
@@ -131,19 +137,24 @@ header{
 .speaker-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-     padding: 50px;
+ padding: 50px;
     gap: 30px;
 
 }
 .speaker-card img{
 
     display:block;
+    /* width: 400px;    
+  height: 400px */
+
 }
 .speaker-card{
     text-align: left;
     overflow: hidden;
     border-radius:10px;
     border:1px solid #e5e7ebFF;
+    
+    
 
 }
 
@@ -155,7 +166,7 @@ header{
     font-weight:700;
     padding:2.5px;
     margin-left:10px;
-    margin-top: 10px;
+    padding-top: 20px;
 }
 
 .speaker-card h3 {
@@ -164,12 +175,14 @@ font-family: "Inter", sans-serif;
     font-weight:bold;
     padding: 2.5px;
     margin-left: 10px;
+    
 }
 
 .speaker-card p{
     font-family: "Inter", sans-serif;
-     font-size:10px;
+    font-size:10px;
     padding:2.5px;
+    margin-bottom:10px;
     margin-left:10px;
     font-weight: 600;
     color: #575757;
@@ -310,6 +323,7 @@ font-weight: 700;
     margin:0 auto;
     padding:0;
     font-size: 14px;
+    cursor:pointer;
 
 }
 
@@ -326,6 +340,15 @@ font-weight: 700;
     border:1px solid #1d4ed8FF;
     cursor:pointer;
 }
+
+
+
+/* ai generated place from my idea */
+
+
+
+
+
  
 /* footer section */
 
